@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<!-- 全包扫描起别名 -->
+		<package name="com.bawei.entity"/>
+	</typeAliases>
+
+	<mappers>
+		<!-- 引入 sql映射文件!!!!!!!!!!!!!切记   这里也支持  全包引入  (前提是:xml映射文件名和dao接口文件相同)-->
+		<mapper  resource="com/bawei/dao/CaigouDao.xml"/>
+	</mappers>
+</configuration>

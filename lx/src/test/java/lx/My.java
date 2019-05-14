@@ -14,5 +14,9 @@ public class My {
   public void test() {
     System.out.println("sas");
   }
+  @Test
+  public void tes1() {
+    System.out.println("二次");
+  }
 
 }
